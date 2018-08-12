@@ -1,0 +1,13 @@
+#Broadcom wifi configuration file(RK)
+
+#ccode ==> country code setting
+#ccode parameter define
+#ALL ===> 1 ~ 14
+#EU ===> 1 ~ 13
+#US ===> 1 ~ 11
+ccode=ALL
+regrev=0
+
+dhd_doflow=1
+srl=15
+lrl=15
