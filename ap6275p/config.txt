@@ -1,0 +1,8 @@
+PM=0
+pm_in_suspend=2
+keep_alive_period=120000
+garp=1
+suspend_bcn_li_dtim=10
+wl_preinit=pm2_sleep_ret=20
+pkt_filter_del=100, 102, 103, 104, 105, 107
+pkt_filter_add=142 0 0 77 0xffffffffffffffffffffffffffffff 0x2F6465766963652F77616B6575702F
