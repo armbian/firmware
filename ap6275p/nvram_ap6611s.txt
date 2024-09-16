@@ -1,0 +1,301 @@
+# AP6611S_NVRAM_V0.1_20231016
+# syn43711 WLBGA SDIO reference board, iPA/iLNA version
+# nvram copied and edited from syn943711wlpagbi_p100 //
+# syn943711wlsagbil_p100.txt
+#
+# ********************SUMMARY********************
+# Board Name: syn943711wlsagbil_p100
+# SSID: 0x0a74
+# macmid:0x02df
+# *************************************************
+# $ Copyright Synaptics $
+# <<Synaptics-WL-IPTag/Proprietary:>>
+
+NVRAMRev=$Rev: 874188 $
+sromrev=11
+boardrev=0x1100
+boardtype=0x0a74
+boardflags=0x00400001
+boardflags2=0xc0800000
+boardflags3=0x40002180
+#boardnum=57410
+macaddr=00:90:4c:12:d0:01
+jtag_irw=38
+
+# Regulatory specific
+ccode=0
+regrev=0
+
+# Ant related
+aa2g=1
+aa5g=1
+agbg0=0
+aga0=0
+ag6ga0=0
+
+# Feature flags
+subband5gver=0x4
+subband6gver=0x1
+
+# Board specific
+vendid=0x14e4
+devid=0x44b0
+manfid=0x2d0
+antswitch=0
+pdgain5g=0
+pdgain2g=0
+
+# RX gain related
+rxgains2gelnagaina0=0
+rxgains2gtrisoa0=0
+rxgains2gtrelnabypa0=0
+rxgains5gelnagaina0=0
+rxgains5gtrisoa0=0
+rxgains5gtrelnabypa0=0
+rxgains5gmelnagaina0=0
+rxgains5gmtrisoa0=0
+rxgains5gmtrelnabypa0=0
+rxgains5ghelnagaina0=0
+rxgains5ghtrisoa0=0
+rxgains5ghtrelnabypa0=0
+
+# RSSI related
+rssicorrnorm_c0=7,7
+rssicorrnorm5g_c0=6,6,6,6,5,6,7,5,5,7,5,6
+
+# TSSI related
+extpagain2g=2
+extpagain5g=2
+tssipos2g=1
+tssipos5g=1
+tworangetssi2g=0
+tworangetssi5g=0
+lowpowerrange2g=0
+lowpowerrange5g=0
+low_adc_rate_en=1
+paparambwver=3
+AvVmid_c0=2,127,4,92,4,91,4,91,4,94
+AvVmid_6g_c0=4,94,4,94,4,94,4,94,4,94,4,94
+
+# PA parameters
+pa2gccka0=78,12527,-1325
+pa2ga0=54,9951,-1012
+pa5ga0=1,7721,-806,22,7818,-796,-77,7151,-795,-80,7154,-792
+pa6ga0=-98,6920,-775,-81,7043,-783,-89,7040,-789,-83,7048,-786,-52,7212,-782,72,7911,-761
+
+# MISC Core related
+bandcap=7
+txchain=1
+rxchain=1
+nocrc=1
+otpimagesize=502
+xtalfreq=37400
+cckdigfilttype=2
+
+# rpcal coef for imptxbf
+rpcal5gb0=238
+rpcal5gb1=228
+rpcal5gb2=222
+rpcal5gb3=229
+rpcal2g=15
+
+# Tempsense Related
+tempthresh=255
+tempoffset=40
+rawtempsense=0x1ff
+phycal_tempdelta=15
+temps_period=15
+temps_hysteresis=15
+
+# Max power and offsets
+maxp2ga0=88
+maxp5ga0=71,70,70,70
+cckpwroffset0=2
+powoffs2gtna0=0,0,0,0,0,0,0,0,0,0,0,0,0,0
+pdoffset40ma0=0x5256
+pdoffset80ma0=0x6655
+pdoffset6g40ma0=0x444444
+pdoffset6g80ma0=0x555555
+
+# HWOLPC
+disable_olpc=0
+olpc_thresh2g=44
+olpc_anchor2g=52
+olpc_thresh5g=44
+olpc_anchor5g=52
+olpc_thresh6g=40
+olpc_anchor6g=48
+hwolpc_offset_c0=2,-2,-6,-6,-6
+hwolpc_offset6g_c0=-6,-4,-5,-5,-6,-5
+
+# 5G power offset per channel for band edge channel
+powoffs5g20mtna0=0,0,0,0,0,0,0
+powoffs5g40mtna0=0,0,0,0,0
+powoffs5g80mtna0=0,0,0,0,0
+mcs11poexp=0
+
+# 2G/5G SU Power Per Rate
+cckbw202gpo=0X2222
+cckbw20ul2gpo=0X2222
+mcsbw202gpo=0xA9886433
+mcsbw402gpo=0x44000000
+dot11agofdmhrbw202gpo=0x7755
+ofdmlrbw202gpo=0x0022
+mcsbw205glpo=0x87421111
+mcsbw405glpo=0xA8421111
+mcsbw805glpo=0xA8421111
+mcsbw205gmpo=0x87421111
+mcsbw405gmpo=0xCA422222
+mcsbw805gmpo=0xA8421111
+mcsbw205ghpo=0x87421111
+mcsbw405ghpo=0xCA422222
+mcsbw805ghpo=0x98421111
+mcs1024qam2gpo=0x7777
+mcs1024qam5glpo=0xFFDDDD
+mcs1024qam5gmpo=0xFFFFFF
+mcs1024qam5ghpo=0xFFFFFF
+mcs1024qam5gx1po=0xFFFFFF
+mcs1024qam5gx2po=0xFFFFFF
+mcs8poexp=0
+mcs9poexp=0
+mcs10poexp=0
+
+# 6G SU Power Per Rate
+maxp6ga0=76,76,76,76,76,70
+mcsbw206gb1po=0xEA855555
+mcsbw406gb1po=0xEA855555
+mcsbw806gb1po=0xE9652222
+mcsbw206gb2po=0xEA855555
+mcsbw406gb2po=0xEA855555
+mcsbw806gb2po=0xE9652222
+mcsbw206gb3po=0xEA855555
+mcsbw406gb3po=0xEA855555
+mcsbw806gb3po=0xE9652222
+mcsbw206gb4po=0xEA855555
+mcsbw406gb4po=0xEA855555
+mcsbw806gb4po=0xE9652222
+mcsbw206gb5po=0xEA855555
+mcsbw406gb5po=0xEA855555
+mcsbw806gb5po=0xE9652222
+mcsbw206gb6po=0xCA964444
+mcsbw406gb6po=0xBA633333
+mcsbw806gb6po=0xE9652221
+mcs1024qam6gb1po=0xFFFFFF
+mcs1024qam6gb2po=0xFFFFFF
+mcs1024qam6gb3po=0xFFFFFF
+mcs1024qam6gb4po=0xFFFFFF
+mcs1024qam6gb5po=0xFFFFFF
+mcs1024qam6gb6po=0xFFFFFF
+
+#OOB params
+#device_wake_opt=1
+host_wake_opt=0
+muxenab=0x10
+
+#SWCTRL Related
+swctrlmap_2g=0x00000010,0x00000004,0x00000010,0x000000,0x3FF
+swctrlmapext_2g=0x00000000,0x00000000,0x00000000,0x000000,0x000
+swctrlmap_5g=0x00000002,0x00000008,0x00000002,0x000000,0x3FF
+swctrlmapext_5g=0x00000000,0x00000000,0x00000000,0x000000,0x000
+swctrlmap_6g=0x00000002,0x00000008,0x00000002,0x000000,0x3FF
+swctrlmapext_6g=0x00000000,0x00000000,0x00000000,0x000000,0x000
+clb2gslice0core0=0x014
+clb2gslice1core0=0x000
+clb5gslice0core0=0xA
+clb5gslice1core0=0x000
+
+#BT Coex
+btc_mode=1
+btc_prisel_ant_mask=0x2
+clb_swctrl_smask_ant0=0x3DF
+bt_coex_chdep_div=1
+
+# --- PAPD Cal related params ----
+# 0:NBPAPD 1:WBPAPD
+txwbpapden=0
+# NB PAPD Cal params
+nb_eps_offset=470,470
+nb_bbmult=66,66
+nb_papdcalidx=30,30,21,14,26,26
+nb_txattn=2,2
+nb_rxattn=1,1
+nb_eps_stopidx=63
+epsilonoff_5g20_c0=-1,-1,1,1
+epsilonoff_5g40_c0=0,0,2,2
+epsilonoff_5g80_c0=0,0,2,2
+epsilonoff_6g20_c0=0,0,0,-1,-1,-1
+epsilonoff_6g40_c0=1,1,1,0,0,0
+epsilonoff_6g80_c0=1,0,0,0,1,0
+epsilonoff_2g20_c0=0
+epsilonoff_2g40_c0=0
+
+# Enable papd for cck when target pwr ge 16dBm
+cckpapd_pwrthresh=64
+
+# energy detect threshold
+ed_thresh2g=-67
+ed_thresh5g=-67
+ed_thresh6g=-67
+
+# energy detect threshold for EU
+eu_edthresh2g=-67
+eu_edthresh5g=-67
+eu_edthresh6g=-67
+
+## ULOFDMA Board limit PPRs for 2G20 ##
+ruppr2g20bpska0=0x0
+ruppr2g20qpska0=0x0
+ruppr2g20qam16a0=0x0
+ruppr2g20qam64a0=0x1
+ruppr2g20qam256a0=0x21084
+ruppr2g20qam1024a0=0x50000
+## ULOFDMA Board limit PPRs for 2G40 ##
+ruppr2g40bpska0=0x200000
+ruppr2g40qpska0=0x200000
+ruppr2g40qam16a0=0x200000
+ruppr2g40qam64a0=0x200001
+ruppr2g40qam256a0=0x421084
+ruppr2g40qam1024a0=0xA50000
+## ULOFDMA Board limit PPRs for 5G20 ##
+ruppr5g20bpska0=0x20000
+ruppr5g20qpska0=0x18000
+ruppr5g20qam16a0=0x28000
+ruppr5g20qam64a0=0x29086
+ruppr5g20qam256a0=0x62908
+ruppr5g20qam1024a0=0x70000
+## ULOFDMA Board limit PPRs for 5G40 ##
+ruppr5g40bpska0=0x638000
+ruppr5g40qpska0=0x840020
+ruppr5g40qam16a0=0x638001
+ruppr5g40qam64a0=0x739085
+ruppr5g40qam256a0=0x106a108
+ruppr5g40qam1024a0=0x1078000
+## ULOFDMA Board limit PPRs for 5G80 ##
+ruppr5g80bpska0=0x0
+ruppr5g80qpska0=0x0
+ruppr5g80qam16a0=0x0
+ruppr5g80qam64a0=0x187218e7
+ruppr5g80qam256a0=0x3904254a
+ruppr5g80qam1024a0=0x49068000
+
+## ULOFDMA Board limit PPRs for 6G20 ##
+ruppr6g20bpska0=0x0
+ruppr6g20qpska0=0x0
+ruppr6g20qam16a0=0x21084
+ruppr6g20qam64a0=0x5294A
+ruppr6g20qam256a0=0x6318C
+ruppr6g20qam1024a0=0x94A52
+## ULOFDMA Board limit PPRs for 6G40 ##
+ruppr6g40bpska0=0x0
+ruppr6g40qpska0=0x0
+ruppr6g40qam16a0=0x421084
+ruppr6g40qam64a0=0xA5294A
+ruppr6g40qam256a0=0xC6318C
+ruppr6g40qam1024a0=0x1294A52
+## ULOFDMA Board limit PPRs for 6G80 ##
+ruppr6g80bpska0=0x0
+ruppr6g80qpska0=0x0
+ruppr6g80qam16a0=0x10421084
+ruppr6g80qam64a0=0x28A5294A
+ruppr6g80qam256a0=0x30C6318C
+ruppr6g80qam1024a0=0x49294A52
