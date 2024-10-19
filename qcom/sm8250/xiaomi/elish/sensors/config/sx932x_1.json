@@ -1,0 +1,28 @@
+{
+  "config":
+  {
+    "hw_platform": ["MTP", "Dragon", "Surf", "HDK", "ELISH"],
+    "soc_id": ["291", "246", "305", "341", "415"]
+  },
+  "sx932x_1":{
+    "owner": "sx932x_1",
+    ".sar":{
+      "owner": "sx932x_1",
+      ".config":{
+        "owner": "sx932x_1",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "2"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    }
+  }
+}

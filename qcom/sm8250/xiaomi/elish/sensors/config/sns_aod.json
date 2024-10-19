@@ -1,0 +1,28 @@
+{
+  "config": {
+    "hw_platform": [
+      "MTP", "Dragon", "Surf", "ELISH"
+    ],
+    "soc_id": [
+      "291", "246", "305", "321", "339", "356"
+    ]
+  },
+  "sns_aod": {
+    "owner": "sns_aod",
+    ".params":{
+      "owner": "sns_aod",
+	    "param1": {
+	      "ver": "1", "type": "flt", "data": "300"
+	    },
+	    "param2": {
+	      "ver": "1", "type": "flt", "data": "2000"
+	    },
+	    "param3": {
+	      "ver": "1", "type": "flt", "data": "3000"
+	    },
+	    "param4": {
+	      "ver": "0", "type": "flt", "data": "0"
+	    }
+	  }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "config":
+  {
+    "hw_platform": ["MTP", "Dragon", "Surf", "ELISH"],
+    "soc_id": ["291", "246", "305", "321", "339", "356"]
+  },
+  "sns_oem13":{
+    "owner": "sns_oem13",
+    ".rotate_angle":{
+      "owner": "sns_oem13",
+      "OEM13_yawChange_Threshold":{
+        "ver": "0", "type": "flt", "data": "30"
+      },
+      "OEM13_PitchAngle_Change":{
+        "ver": "0", "type": "flt", "data": "30"
+      },
+      "OEM13_ScreenAngle_Threshold":{
+        "ver": "0", "type": "flt", "data": "30"
+      },
+      "OEM13_RollAngle_Threshold":{
+        "ver": "0", "type": "flt", "data": "30"
+      }
+    },
+    ".Light":{
+      "owner": "sns_oem13",
+      "OEM13_LightMax":{
+        "ver": "0", "type": "flt", "data": "90"
+      },
+      "OEM13_Light_new":{
+        "ver": "0", "type": "flt", "data": "10"
+      },
+      "OEM13_Light_old":{
+        "ver": "0", "type": "flt", "data": "15"
+      },
+      "OEM13_light_delta":{
+        "ver": "0", "type": "flt", "data": "10"
+      },
+      "OEM13_LightUp":{
+        "ver": "1", "type": "flt", "data": "90"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "config":
+  {
+    "hw_platform": ["MTP", "Dragon", "Surf", "URD", "ELISH"],
+    "soc_id": ["291", "246", "305", "321", "339", "356"]
+  },
+  "dbtap":{
+    "owner": "sns_dbtap",
+    ".times":{
+      "owner": "sns_dbtap",
+      "ALGO_DBP_maxTimeForThree":{
+        "ver": "0", "type": "flt", "data": "400"
+      }
+    }
+  }
+}
