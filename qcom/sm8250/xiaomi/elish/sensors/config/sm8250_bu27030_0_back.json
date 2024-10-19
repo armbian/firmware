@@ -1,0 +1,156 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "Dragon", "Surf","ELISH"],
+    "soc_id": ["291", "246", "305", "341", "356", "400"]
+  },
+  "bu27030_back_0_platform":{
+    "owner": "sns_bu27030_back",
+    ".config":{
+      "owner": "sns_bu27030_back",
+      "bus_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "bus_instance":{ "type": "int", "ver": "6",
+        "data": "5"
+      },
+      "slave_config":{ "type": "int", "ver": "2",
+        "data": "56"
+      },
+      "min_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "max_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "reg_addr_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "dri_irq_num":{ "type": "int", "ver": "1",
+        "data": "67"
+      },
+      "irq_pull_type":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "irq_is_chip_pin":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "irq_drive_strength":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_trigger_type":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "num_rail":{ "type": "int", "ver": "1",
+        "data": "2"
+      },
+      "rail_on_state":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "vddio_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_vddio"
+      },
+      "rigid_body_type":{ "type": "int", "ver": "0",
+      "data": "0"
+      }
+    },
+    ".ambient_light":{
+      "owner": "sns_bu27030_back",
+      ".fac_cal":{
+        "owner": "sns_bu27030_back",
+        "scale":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "bias":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        }
+      }
+    },
+    ".lcd_lux":{
+      "owner": "sns_bu27030_back",
+      ".diff_adc":{
+        "owner": "sns_bu27030_back",
+        "data0":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "data1":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        }
+      }
+    },
+    ".highlcd":{
+      "owner": "sns_tsl2560",
+      ".fac_cal":{
+        "owner": "sns_tsl2560",
+      "dbv":{ "type": "flt", "ver": "0",
+          "data": "4095.0"
+        },
+        "lux":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        }
+      }
+    },
+    ".lowlcd":{
+      "owner": "sns_tsl2560",
+      ".fac_cal":{
+        "owner": "sns_tsl2560",
+      "dbv":{ "type": "flt", "ver": "0",
+          "data": "200.0"
+        },
+        "lux":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        }
+      }
+    },
+    ".prx2lux":{
+      "owner": "sns_tsl2560",
+      ".fac_cal":{
+        "owner": "sns_tsl2560",
+      "ch0_diff":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "ch1_diff":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        }
+      }
+    },
+    ".coefficient":{
+      "owner": "sns_bu27030_back",
+      "0":{ "type": "flt", "ver": "0",
+        "data": "200.0"
+      },
+      "1":{ "type": "flt", "ver": "0",
+        "data": "-0.26"
+      },
+      "2":{ "type": "flt", "ver": "0",
+        "data": "0.8"
+      },
+      "3":{ "type": "flt", "ver": "0",
+        "data": "-0.27"
+      },
+      "4":{ "type": "flt", "ver": "0",
+        "data": "1.0"
+      },
+      "5":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "6":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "7":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "8":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "9":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "10":{ "type": "flt", "ver": "0",
+        "data": "600.0"
+      },
+      "11":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      }
+    }
+  }
+}

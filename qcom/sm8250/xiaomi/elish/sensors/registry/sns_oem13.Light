@@ -1,0 +1,1 @@
+{"sns_oem13.Light":{"owner":"sns_oem13","OEM13_LightMax":{"type":"flt","ver":"0","data":"90.000000"},"OEM13_Light_new":{"type":"flt","ver":"0","data":"10.000000"},"OEM13_Light_old":{"type":"flt","ver":"0","data":"15.000000"},"OEM13_light_delta":{"type":"flt","ver":"0","data":"10.000000"},"OEM13_LightUp":{"type":"flt","ver":"1","data":"90.000000"}}}

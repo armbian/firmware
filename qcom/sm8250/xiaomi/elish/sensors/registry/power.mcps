@@ -1,0 +1,1 @@
+{"power.mcps":{"owner":"power_manager","min_svs":{"type":"int","ver":"0","data":"269"},"low_svs":{"type":"int","ver":"0","data":"384"},"svs":{"type":"int","ver":"0","data":"499"},"nominal":{"type":"int","ver":"0","data":"806"},"turbo":{"type":"int","ver":"0","data":"998"}}}
