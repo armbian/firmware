@@ -1,2 +1,0 @@
-# firmware
-Armbian specific firmware
