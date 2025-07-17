@@ -1,0 +1,26 @@
+# AIC POWERLIMIT 2024/0311/1456
+# Max tx power reference: Linux wireless regulatory database for CRDA
+# https://git.kernel.org/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/tree/db.txt
+# If you add other countries, do so before column "00", the number of columns in "Table" is changed to the number of corresponding country codes
+# If loss_value in aic_userconfig_8800d80.txt is enabled, the power value in this document will be subtracted from loss_value in actual judgment
+
+# Table 1:
+##	2.4G,#3#
+##	START
+##      CN    US    00
+CH01    15    18    13
+CH02    15	  18    13
+CH03    15	  18    13
+CH04    15	  18    13
+CH05    15	  18    13
+CH06    15	  18    13
+CH07    15	  18    13
+CH08    15	  18    13
+CH09    15	  18    13
+CH10    15	  18    13
+CH11    15	  18    13
+CH12    12	  NA    13
+CH13    12	  NA    13
+CH14    NA    NA    13
+##	END
+
